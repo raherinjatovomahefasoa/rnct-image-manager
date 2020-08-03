@@ -1,0 +1,28 @@
+{
+  "name": "rnct-image-manager",
+  "version": "1.0.0",
+  "description": "It manages images in the database",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.5.0",
+    "bootstrap": "^4.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raherinjatovomahefasoa/rnct-image-manager.git"
+  },
+  "keywords": [
+    "Image",
+    "manager"
+  ],
+  "author": "Mahefasoa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raherinjatovomahefasoa/rnct-image-manager/issues"
+  },
+  "homepage": "https://github.com/raherinjatovomahefasoa/rnct-image-manager#readme"
+}

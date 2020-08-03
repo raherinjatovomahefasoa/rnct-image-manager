@@ -1,0 +1,38 @@
+{
+    "mysqlConnect": {
+        "server": "localhost",
+        "database": "site1",
+        "username": "Mahefasoa",
+        "password": "just a random password"
+    },
+    "tables": {
+        "pages": "pages",
+        "menus": "menus",
+        "images": "images",
+        "settings": "settings"
+    },
+    "folders": {
+        "pages": "files/pages",
+        "images": "files/images"
+    },
+    "css": {
+        "fontawesome-free": "node_modules/@fortawesome/fontawesome-free/css/all.css",
+        "perfect-scrollbar": "node_modules/perfect-scrollbar/css/perfect-scrollbar.css",
+        "bootstrap": "node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "bootstrap-iconpicker": "node_modules/bootstrap-iconpicker-latest/dist/css/bootstrap-iconpicker.css",
+        "@coreui": "node_modules/@coreui/coreui/dist/css/coreui.min.css",
+        "rnct-admin-module": "dist/css/rnct-admin-module.css"
+    },
+    "js": {
+        "jquery": "node_modules/jquery/jquery.min.js"
+    },
+    "jslazy": {
+        "perfect-scrollbar": "node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js",
+        "popper.js": "node_modules/popper.js/dist/umd/popper.min.js",
+        "@coreui": "node_modules/@coreui/coreui/dist/js/coreui.min.js",
+        "bootstrap.bundle": "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+        "bootstrap-iconpicker": "node_modules/bootstrap-iconpicker-latest/dist/js/bootstrap-iconpicker.bundle.min.js",
+        "rnct-admin-module": "dist/js/rnct-admin-module.js",
+        "rnct-pages": "node_modules/rnct-pages/dist/js/rnct-page-manager.min.js"
+    }
+}

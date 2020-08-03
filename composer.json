@@ -1,0 +1,17 @@
+{
+    "name": "mahefasoa/rnctadmin",
+    "description": "PHP based admin dashboard app",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Mahefasoa",
+            "email": "raherinjatovomahefasoa@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "RnctAdmin\\": "src/"
+        }
+    },
+    "require": {}
+}

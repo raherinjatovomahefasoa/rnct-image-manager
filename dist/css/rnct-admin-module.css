@@ -1,0 +1,247 @@
+.ri-scaleDown {
+	-webkit-transform: scale(.85);
+	        transform: scale(.85);
+}
+.ri-checkbox {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 1;
+}
+.ri-img-thumbnail {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	position: relative;
+	-webkit-transition: 250ms all ease;
+	transition: 250ms all ease;
+}
+.ri-img-thumbnail:hover input{
+	display: block;
+}
+.table-icons td {
+	max-width: 40px;
+}
+.sortable-list {
+	margin: 0;
+	padding: 0;
+	min-height: 200px;
+	background: red;
+	padding: 5px;
+	border-radius: 4px;
+}
+.sortable-nested {
+	margin: 0;
+	padding: 8px 0 0;
+}
+.sortable-container {
+	padding-top: 16px;
+	overflow-y: scroll;
+	max-height: 370px;
+}
+.sortable-menu {
+	margin: 0;
+	min-height: 340px;
+	border-radius: 4px;
+	padding: 16px;
+}
+.sortable-list-item {
+	width: 100%;
+	padding: 10px 16px 10px 16px;
+	border-radius: 3px;
+	margin: 0;
+	list-style: none;
+	cursor: move;
+	margin-bottom: 4px;
+	border: 1px solid lightgrey;
+}
+.sortable-list-item-2 {
+	width: 100%;
+	padding: 10px 16px 10px 16px;
+	border-radius: 3px;
+	margin: 0;
+	list-style: none;
+	cursor: pointer;
+	margin-bottom: 2px;
+}
+#crop {
+	width: 200px;
+	height: 150px;
+	position:relative; /* or fixed or absolute */
+}
+.editbox-pages {
+	padding-left: 16px;
+	padding-right: 10px;
+	position: relative;
+}
+.editbox-checkbox-show {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.search-field {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border: none;
+	overflow: hidden;
+}
+.editbox-checkbox {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	display: none;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+.text-g-link {
+	color: #202124;
+}
+.text-g-size {
+	font-size: 15px;
+}
+.text-g-color {
+	color: #4d5156;
+}
+.editbox-pages li {
+	list-style: none;
+	margin-bottom: 20px;
+	cursor: default;
+	position: relative;
+}
+.editbox-pages li:hover > input {
+	display: block;
+}
+.scaleDown {
+	-webkit-transform: scale(.94);
+	        transform: scale(.94);
+}
+.editbox {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	padding: 50px;
+}
+.editbox-fluid {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	max-width: 1288px;
+	margin: auto;
+	padding: 0;
+}
+.editbox-fluid .close {
+	display: none;
+}
+.editbox-gallery::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background: lightgrey;
+    border-radius: 20px;
+}
+.editbox-gallery::-webkit-scrollbar-track {
+    width: 5px;
+}
+.editbox-gallery::-webkit-scrollbar-thumb {
+    background: dimgrey;
+    border-radius: 20px;
+}
+.sortable-container::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background: lightgrey;
+    border-radius: 20px;
+}
+.sortable-container::-webkit-scrollbar-track {
+    width: 5px;
+}
+.sortable-container::-webkit-scrollbar-thumb {
+    background: dimgrey;
+    border-radius: 20px;
+}
+.editbox-tab::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background: lightgrey;
+    border-radius: 20px;
+}
+.editbox-tab::-webkit-scrollbar-track {
+    width: 5px;
+}
+.editbox-tab::-webkit-scrollbar-thumb {
+    background: dimgrey;
+    border-radius: 20px;
+}
+.editbox-content {
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    height: 100%;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.editbox-header {
+    height: 60px;
+	max-width: 100%;
+}
+.editbox-body {
+    height: calc(100% - 60px);
+    padding: 0 15px;
+}
+.editbox-primary,.editbox-secondary {
+    height: 100%;
+
+}
+.editbox-primary {
+    padding: 0;
+}
+.editbox-secondary {
+    padding: 0px;
+}
+.editbox-tab {
+    overflow-y: scroll;
+	height: 100%;
+    padding: 16px;
+    height: calc(100% - 42px);
+}
+.editbox-form {
+    height: 60px;
+    padding: 16px;
+}
+.editbox-gallery {
+    height: calc(100% - 60px);
+    overflow-y: scroll;
+    padding: 4px 4px 20px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.editbox-gallery .col {
+    padding: 2px 3px;
+    min-height: 50px;
+    max-height: 150px;
+}
+.img-active {
+    border: 2px solid dodgerblue;
+    -webkit-box-shadow: 0 0 5px dodgerblue;
+            box-shadow: 0 0 5px dodgerblue;
+}
+.editbox-img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.editbox-img img {
+    width: 100%;
+    height: auto;
+}
